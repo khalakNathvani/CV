@@ -1,0 +1,32 @@
+body
+{
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  background-color: whitesmoke;
+}
+
+h1
+{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+.img-container
+{
+  margin: 10px 30%;
+}
+
+.img-container img
+{
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .img-container
+  {
+    margin: 10px ;
+  }
+}
