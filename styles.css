@@ -53,6 +53,7 @@ a
 {
   color: #2f4f4f !important;
   font-family: 'Arvo', serif !important;
+  font-weight: bold;
   margin: 10px 20px !important ;
   text-decoration: none !important;
   padding: 8px;
@@ -109,15 +110,40 @@ a:hover
 
 .profile
 {
-  width: 30% !important;
-  margin: 100px auto 100px auto !important;
-  line-height: 2
+  width: 100% !important;
+  background-color: #000;
+  margin: 250px auto 150px auto !important;
+  position: relative;
+  line-height: 2;
+  /* float: left; */
+}
+
+.hello1
+{
+  color: #fff;
+  position: absolute;
+  padding: 100px 0 0 150px;
+  width: 40%;
+  text-align: left;
+}
+
+.hello2
+{
+  position: absolute;
+  margin-left: 20px;
+  padding: 250px 30px 0 30px;
+  width: 35%;
 }
 
 .profile-pic
 {
-  border-radius: 100%;
-  border: dotted black 6px;
+  background-color: #000;
+  text-align: right;
+  margin-right: 0;
+  margin-left: 740px !important;
+  /* position: relative; */
+  /* border-radius: 100%; */
+  /* border: dotted black 6px; */
 }
 
 .skills
@@ -374,6 +400,11 @@ a:hover
    body{
      margin: 0
      width: 100%;
+   }
+
+   .profile-pic
+   {
+     margin-left: 300px !important;
    }
 
 }
